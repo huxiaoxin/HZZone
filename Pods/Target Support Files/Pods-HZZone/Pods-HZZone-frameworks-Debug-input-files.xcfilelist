@@ -27,7 +27,6 @@ ${BUILT_PRODUCTS_DIR}/SJUIKit/SJUIKit.framework
 ${BUILT_PRODUCTS_DIR}/SJVideoPlayer/SJVideoPlayer.framework
 ${BUILT_PRODUCTS_DIR}/SPPageMenu/SPPageMenu.framework
 ${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
-${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework
 ${BUILT_PRODUCTS_DIR}/UIImage+ImageWithColor/UIImageWithColor.framework
 ${BUILT_PRODUCTS_DIR}/UriParser-cpp/UriParser.framework
 ${BUILT_PRODUCTS_DIR}/VTMagic/VTMagic.framework
@@ -36,6 +35,7 @@ ${BUILT_PRODUCTS_DIR}/WMDragView/WMDragView.framework
 ${BUILT_PRODUCTS_DIR}/XHInputView/XHInputView.framework
 ${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework
 ${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/ZKCycleScrollView/ZKCycleScrollView.framework
 ${BUILT_PRODUCTS_DIR}/ZWLimitCounter/ZWLimitCounter.framework
 ${BUILT_PRODUCTS_DIR}/ZWPlaceHolder/ZWPlaceHolder.framework
 ${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework

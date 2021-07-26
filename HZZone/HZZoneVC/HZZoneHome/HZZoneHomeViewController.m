@@ -33,14 +33,14 @@
     // Do any additional setup after loading the view.
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return 1;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     HZZoneHomeTableViewCell * HzzoneCell = [HZZoneHomeTableViewCell HZZoneCreateCellWithTheTableView:tableView WithTheIndexPath:indexPath];
     return HzzoneCell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+    return 367+40;
 }
 /*
 #pragma mark - Navigation

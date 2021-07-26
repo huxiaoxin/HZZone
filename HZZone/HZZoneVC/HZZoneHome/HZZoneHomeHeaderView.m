@@ -126,7 +126,7 @@
     if (!_HZZoneRecomentlb) {
         _HZZoneRecomentlb = [[UILabel alloc]initWithFrame:CGRectMake(15, CGRectGetMaxY(_HZZoneColltectionView.frame)+15, 200, 20)];
         _HZZoneRecomentlb.textColor = [UIColor blackColor];
-        _HZZoneRecomentlb.text = @"热门推荐";
+        _HZZoneRecomentlb.text = @"更多为你推荐";
         _HZZoneRecomentlb.font = [UIFont boldSystemFontOfSize:18];
     }
     return _HZZoneRecomentlb;
