@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HZZoneBaseTabbarViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property(nonatomic,strong) UIWindow * window;
+@property(nonatomic,strong) HZZoneBaseTabbarViewController * hzzoneBaseTabbar;
 @end
 

@@ -1,22 +1,20 @@
 //
-//  HZZoneBaseViewController.m
+//  HZZoneThreeViewController.m
 //  HZZone
 //
 //  Created by codehzx on 2021/7/26.
 //
 
-#import "HZZoneBaseViewController.h"
+#import "HZZoneThreeViewController.h"
 
-@interface HZZoneBaseViewController ()
+@interface HZZoneThreeViewController ()
 
 @end
 
-@implementation HZZoneBaseViewController
+@implementation HZZoneThreeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-
     // Do any additional setup after loading the view.
 }
 

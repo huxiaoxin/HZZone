@@ -1,22 +1,20 @@
 //
-//  HZZoneBaseViewController.m
+//  HZZoneLoginViewController.m
 //  HZZone
 //
 //  Created by codehzx on 2021/7/26.
 //
 
-#import "HZZoneBaseViewController.h"
+#import "HZZoneLoginViewController.h"
 
-@interface HZZoneBaseViewController ()
+@interface HZZoneLoginViewController ()
 
 @end
 
-@implementation HZZoneBaseViewController
+@implementation HZZoneLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-
     // Do any additional setup after loading the view.
 }
 
