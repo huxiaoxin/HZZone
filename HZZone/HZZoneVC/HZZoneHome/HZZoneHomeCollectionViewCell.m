@@ -33,6 +33,6 @@
 }
 -(void)layoutSubviews{
     _HZZoneTopimgView.frame = CGRectMake(0, 0, self.bounds.size.width, 90);
-    _HZZoneBtomlb.frame = CGRectMake(0, CGRectGetMaxY(_HZZoneTopimgView.frame)+6, self.bounds.size.width, 15);
+    _HZZoneBtomlb.frame = CGRectMake(0, CGRectGetMaxY(_HZZoneTopimgView.frame)+6, self.bounds.size.width, 20);
 }
 @end

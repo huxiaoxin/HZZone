@@ -33,11 +33,12 @@
         
         for (int index = 0; index < imgBtnArr.count; index++) {
             HZZoneHomeBtn * hzzBtn =[[HZZoneHomeBtn alloc]initWithFrame:CGRectMake(CGRectGetWidth(_HZZoneContentView.frame)/imgBtnArr.count*index, CGRectGetMaxY(_HZZoneSearchView.frame)+25, CGRectGetWidth(_HZZoneContentView.frame)/imgBtnArr.count, CGRectGetHeight(_HZZoneContentView.frame)-CGRectGetMaxY(_HZZoneSearchView.frame)-25)];
+            hzzBtn.tag = index;
             hzzBtn.HZZoneTopImgView.image = [UIImage imageNamed:imgBtnArr[index]];
             hzzBtn.HZZoneTopImgView.backgroundColor = LGDMianColor;
             hzzBtn.HZZoneBtomlb.text = imgBtnArr[index];
             hzzBtn.tag = index;
-            [hzzBtn addTarget:self action:@selector(HZZoneHomeBtnClick) forControlEvents:UIControlEventTouchUpInside];
+            [hzzBtn addTarget:self action:@selector(HZZoneHomeBtnClick:) forControlEvents:UIControlEventTouchUpInside];
             [_HZZoneContentView addSubview:hzzBtn];
         }
         
@@ -101,10 +102,10 @@
 - (UICollectionView *)HZZoneColltectionView{
     if (!_HZZoneColltectionView) {
         UICollectionViewFlowLayout * HZZoneLayout = [[UICollectionViewFlowLayout alloc]init];
-        HZZoneLayout.itemSize = CGSizeMake(150, 115);
+        HZZoneLayout.itemSize = CGSizeMake(150, 120);
         HZZoneLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         HZZoneLayout.sectionInset = UIEdgeInsetsMake(15, 15, 15, 15);
-        _HZZoneColltectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(_HZZoneContentView.frame)+20, GK_SCREEN_WIDTH, 115) collectionViewLayout:HZZoneLayout];
+        _HZZoneColltectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(_HZZoneContentView.frame)+20, GK_SCREEN_WIDTH, 120) collectionViewLayout:HZZoneLayout];
         _HZZoneColltectionView.showsVerticalScrollIndicator = NO;
         _HZZoneColltectionView.showsHorizontalScrollIndicator = NO;
         _HZZoneColltectionView.backgroundColor = [UIColor clearColor];
@@ -134,8 +135,8 @@
 -(void)HZZoneSearchBtnClick{
     
 }
--(void)HZZoneHomeBtnClick{
-    
+-(void)HZZoneHomeBtnClick:(HZZoneHomeBtn *)btn{
+    [self.delegate HZZoneHomeHeaderViewWithBtnIndex:btn.tag];
 }
 
 /*
