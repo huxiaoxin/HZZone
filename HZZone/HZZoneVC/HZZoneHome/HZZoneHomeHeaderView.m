@@ -29,7 +29,7 @@
         [_HZZoneSearchView addSubview:self.HZZoneSGView];
         [self addSubview:self.HZZoneColltectionView];
         [self addSubview:self.HZZoneRecomentlb];
-        NSArray * imgBtnArr = @[@"甄选好片",@"热门推荐",@"影视热门",@"在线客服"];
+        NSArray * imgBtnArr = @[@"甄选好片",@"热门推荐",@"影视热门",@"智能助手  "];
         
         for (int index = 0; index < imgBtnArr.count; index++) {
             HZZoneHomeBtn * hzzBtn =[[HZZoneHomeBtn alloc]initWithFrame:CGRectMake(CGRectGetWidth(_HZZoneContentView.frame)/imgBtnArr.count*index, CGRectGetMaxY(_HZZoneSearchView.frame)+25, CGRectGetWidth(_HZZoneContentView.frame)/imgBtnArr.count, CGRectGetHeight(_HZZoneContentView.frame)-CGRectGetMaxY(_HZZoneSearchView.frame)-25)];

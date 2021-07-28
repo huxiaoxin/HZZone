@@ -10,6 +10,9 @@
 		4A4D4D6726B0480C00BE4EEF /* FZPWJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6626B0480C00BE4EEF /* FZPWJW.TTF */; };
 		4A4D4D6B26B04E6B00BE4EEF /* HZZoneGoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */; };
 		4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6D26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m */; };
+		4A674E3026B19B460095B691 /* HZZoneHomeKefuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A674E2F26B19B460095B691 /* HZZoneHomeKefuViewController.m */; };
+		4A674E3326B19BD00095B691 /* HZZoneHomeKefuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A674E3226B19BD00095B691 /* HZZoneHomeKefuHeaderView.m */; };
+		4A674E3626B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A674E3526B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m */; };
 		4A8699A626AE7675001DAF55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8699A526AE7675001DAF55 /* AppDelegate.m */; };
 		4A8699AC26AE7675001DAF55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8699AB26AE7675001DAF55 /* ViewController.m */; };
 		4A8699AF26AE7675001DAF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8699AD26AE7675001DAF55 /* Main.storyboard */; };
@@ -73,6 +76,12 @@
 		4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneGoodListViewController.m; sourceTree = "<group>"; };
 		4A4D4D6C26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneGoodListTableViewCell.h; sourceTree = "<group>"; };
 		4A4D4D6D26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneGoodListTableViewCell.m; sourceTree = "<group>"; };
+		4A674E2E26B19B460095B691 /* HZZoneHomeKefuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHomeKefuViewController.h; sourceTree = "<group>"; };
+		4A674E2F26B19B460095B691 /* HZZoneHomeKefuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHomeKefuViewController.m; sourceTree = "<group>"; };
+		4A674E3126B19BD00095B691 /* HZZoneHomeKefuHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHomeKefuHeaderView.h; sourceTree = "<group>"; };
+		4A674E3226B19BD00095B691 /* HZZoneHomeKefuHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHomeKefuHeaderView.m; sourceTree = "<group>"; };
+		4A674E3426B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneKefuTypeFirstTableViewCell.h; sourceTree = "<group>"; };
+		4A674E3526B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneKefuTypeFirstTableViewCell.m; sourceTree = "<group>"; };
 		4A8699A126AE7675001DAF55 /* HZZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8699A426AE7675001DAF55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A8699A526AE7675001DAF55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -198,6 +207,19 @@
 				4A4D4D6D26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m */,
 			);
 			path = HZZoneHomeGood;
+			sourceTree = "<group>";
+		};
+		4A674E2D26B19B1F0095B691 /* HZZoneHomekefu */ = {
+			isa = PBXGroup;
+			children = (
+				4A674E2E26B19B460095B691 /* HZZoneHomeKefuViewController.h */,
+				4A674E2F26B19B460095B691 /* HZZoneHomeKefuViewController.m */,
+				4A674E3426B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.h */,
+				4A674E3526B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m */,
+				4A674E3126B19BD00095B691 /* HZZoneHomeKefuHeaderView.h */,
+				4A674E3226B19BD00095B691 /* HZZoneHomeKefuHeaderView.m */,
+			);
+			path = HZZoneHomekefu;
 			sourceTree = "<group>";
 		};
 		4A86999826AE7675001DAF55 = {
@@ -328,6 +350,7 @@
 		4A869A1226AE7D05001DAF55 /* HZZoneHome */ = {
 			isa = PBXGroup;
 			children = (
+				4A674E2D26B19B1F0095B691 /* HZZoneHomekefu */,
 				4A4D4D6826B04E4A00BE4EEF /* HZZoneHomeGood */,
 				4A869A1726AE7D2F001DAF55 /* HZZoneHomeViewController.h */,
 				4A869A1826AE7D2F001DAF55 /* HZZoneHomeViewController.m */,
@@ -598,6 +621,7 @@
 				4A869A3526AE9044001DAF55 /* HZZoneHomeCollectionViewCell.m in Sources */,
 				4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */,
 				4A869A0926AE7A16001DAF55 /* HZZoneTableViewController.m in Sources */,
+				4A674E3026B19B460095B691 /* HZZoneHomeKefuViewController.m in Sources */,
 				4A869A1C26AE7D39001DAF55 /* HZZoneSecondViewController.m in Sources */,
 				4A869A0026AE79C6001DAF55 /* HZZoneBaseModel.m in Sources */,
 				4A869A0F26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.m in Sources */,
@@ -615,6 +639,7 @@
 				4A869A2526AE7D50001DAF55 /* HZZoneFiveViewController.m in Sources */,
 				4A8699F626AE79AC001DAF55 /* UIView+shadowPath.m in Sources */,
 				4A8699FA26AE79AC001DAF55 /* UIView+ACSLayer.m in Sources */,
+				4A674E3626B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m in Sources */,
 				4A8699F426AE79AC001DAF55 /* NSString+CHRegex.m in Sources */,
 				4A8699B726AE7678001DAF55 /* main.m in Sources */,
 				4A869A3226AE8C12001DAF55 /* HZZoneHomeBtn.m in Sources */,
@@ -624,6 +649,7 @@
 				4A869A0326AE79F0001DAF55 /* HZZoneBaseTabbarViewController.m in Sources */,
 				4A869A2C26AE80C4001DAF55 /* HZZoneHomeHeaderView.m in Sources */,
 				4A8699FC26AE79AC001DAF55 /* LMJHorizontalScrollText.m in Sources */,
+				4A674E3326B19BD00095B691 /* HZZoneHomeKefuHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

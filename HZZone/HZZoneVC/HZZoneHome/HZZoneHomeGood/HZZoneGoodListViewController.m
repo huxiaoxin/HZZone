@@ -15,8 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.gk_navTitle = @"甄选好片";
-    // Do any additional setup after loading the view.
+    self.gk_navTitle = self.index == 0 ? @"甄选好片" : @"热门推荐";
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 10;

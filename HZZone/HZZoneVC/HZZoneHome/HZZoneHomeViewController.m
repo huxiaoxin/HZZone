@@ -9,6 +9,7 @@
 #import "HZZoneHomeHeaderView.h"
 #import "HZZoneHomeTableViewCell.h"
 #import "HZZoneGoodListViewController.h"
+#import "HZZoneHomeKefuViewController.h"
 @interface HZZoneHomeViewController ()<HZZoneHomeHeaderViewDelegate>
 @property(nonatomic,strong) HZZoneHomeHeaderView * HZZoneHeader;
 @property(nonatomic,strong) UIView * HZZoneFooterView;
@@ -73,13 +74,18 @@
     if (btnIndex == 0) {
         HZZoneGoodListViewController * hzzoneVc = [[HZZoneGoodListViewController alloc]init];
         hzzoneVc.hidesBottomBarWhenPushed = YES;
+        hzzoneVc.index =  0;
         [self.navigationController pushViewController:hzzoneVc animated:YES];
     }else if (btnIndex == 1){
-        
+        HZZoneGoodListViewController * hzzoneVc = [[HZZoneGoodListViewController alloc]init];
+        hzzoneVc.hidesBottomBarWhenPushed = YES;
+        hzzoneVc.index =  1;
+        [self.navigationController pushViewController:hzzoneVc animated:YES];
     }else if (btnIndex == 2){
         
     }else if (btnIndex == 3){
-        
+        HZZoneHomeKefuViewController * hzzoneKefuVc = [[HZZoneHomeKefuViewController alloc]init];
+        [self.navigationController pushViewController:hzzoneKefuVc animated:YES];
     }
 }
 /*
