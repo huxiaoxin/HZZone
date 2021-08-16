@@ -6,7 +6,7 @@
 //
 
 #import "HZZoneThreeViewController.h"
-
+#import "HZZoneThreeTableViewCell.h"
 @interface HZZoneThreeViewController ()
 
 @end
@@ -15,9 +15,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.gk_navTitle = @"活动";
     // Do any additional setup after loading the view.
+    UIView * HZZoneSendingView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
+    UIButton * HZZoneSendBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [HZZoneSendBtn setImage:[UIImage imageNamed:@"xie"] forState:UIControlStateNormal];
+    [HZZoneSendBtn setFrame:CGRectMake(0, 15, 20, 20)];
+    [HZZoneSendBtn addTarget:self action:@selector(HZZoneSendBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [HZZoneSendingView addSubview:HZZoneSendBtn];
+    self.gk_navRightBarButtonItem =[[UIBarButtonItem alloc]initWithCustomView:HZZoneSendingView];
+    self.view.backgroundColor =  LGDLightGaryColor;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
 }
 
+-(void)HZZoneSendBtnClick{
+    
+}
 /*
 #pragma mark - Navigation
 

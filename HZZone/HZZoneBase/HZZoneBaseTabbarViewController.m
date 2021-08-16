@@ -30,7 +30,7 @@
     NSMutableArray *imageNormalArr;
     NSMutableArray *imageSelectedArr;
     NSArray *controArray;
-    titleArr = [NSMutableArray arrayWithObjects:@"首页",@"分类", @"视频",@"消息",@"我的", nil];
+    titleArr = [NSMutableArray arrayWithObjects:@"首页",@"影社", @"视频",@"消息",@"我的", nil];
     imageNormalArr = [NSMutableArray arrayWithObjects:@"shouyeHom_nomal",@"fenlei_nomal",@"duanshipin_nomal",@"xiaoxi_nomal",@"gerenzhongxin_nomal", nil];
     imageSelectedArr = [NSMutableArray arrayWithObjects:@"shouyeHom_sel",@"fenlei_sel",@"duanshipin_sel",@"xiaoxi_sel",@"gerenzhongxin_sel", nil];
     controArray = @[[HZZoneHomeViewController new], [HZZoneSecondViewController new], [HZZoneThreeViewController new],[HZZoneFoureViewController new], [HZZoneFiveViewController new]];

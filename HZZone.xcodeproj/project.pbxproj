@@ -50,6 +50,24 @@
 		4A869A3526AE9044001DAF55 /* HZZoneHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A869A3426AE9044001DAF55 /* HZZoneHomeCollectionViewCell.m */; };
 		4A869A3826AE9896001DAF55 /* HZZoneHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A869A3726AE9896001DAF55 /* HZZoneHomeTableViewCell.m */; };
 		4A869A3B26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A869A3A26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m */; };
+		4A942FBA26C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FB926C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.m */; };
+		4A942FBD26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FBC26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m */; };
+		4A942FC326C75E8400DE6DAE /* HZZoneKefuSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FC226C75E8400DE6DAE /* HZZoneKefuSendView.m */; };
+		4A942FC726C761FE00DE6DAE /* HZZoneHotRemenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FC626C761FE00DE6DAE /* HZZoneHotRemenViewController.m */; };
+		4A942FCA26C7652B00DE6DAE /* HZZoneHotRemenHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FC926C7652B00DE6DAE /* HZZoneHotRemenHeaderView.m */; };
+		4A942FCD26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FCC26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m */; };
+		4A942FD026C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FCF26C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m */; };
+		4A942FD326C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FD226C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m */; };
+		4A942FD626C7A24D00DE6DAE /* HZZoneSecondSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FD526C7A24D00DE6DAE /* HZZoneSecondSubViewController.m */; };
+		4A942FD926C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FD826C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.m */; };
+		4A942FDC26C7A83F00DE6DAE /* HZZoneSecondHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FDB26C7A83F00DE6DAE /* HZZoneSecondHeaderView.m */; };
+		4A942FDF26C7B39300DE6DAE /* HZZoneSecondBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FDE26C7B39300DE6DAE /* HZZoneSecondBtn.m */; };
+		4A942FE226C7B86200DE6DAE /* HZZoneSecondPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FE126C7B86200DE6DAE /* HZZoneSecondPersonViewController.m */; };
+		4A942FE526C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FE426C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m */; };
+		4A942FE926C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FE826C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m */; };
+		4A942FEC26C7CCB800DE6DAE /* UIViewController+IOS13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEA26C7CCB800DE6DAE /* UIViewController+IOS13.m */; };
+		4A942FEF26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */; };
+		4A942FF226C7D09000DE6DAE /* HZZoneThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */; };
 		623C8CDDAEBC7373D92E76A6 /* Pods_HZZone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +176,42 @@
 		4A869A3726AE9896001DAF55 /* HZZoneHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHomeTableViewCell.m; sourceTree = "<group>"; };
 		4A869A3926AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHomeBannerCollectionViewCell.h; sourceTree = "<group>"; };
 		4A869A3A26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHomeBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		4A942FB826C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHeaderFirstTableViewCell.h; sourceTree = "<group>"; };
+		4A942FB926C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHeaderFirstTableViewCell.m; sourceTree = "<group>"; };
+		4A942FBB26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHeaderSecondTableViewCell.h; sourceTree = "<group>"; };
+		4A942FBC26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHeaderSecondTableViewCell.m; sourceTree = "<group>"; };
+		4A942FC126C75E8400DE6DAE /* HZZoneKefuSendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneKefuSendView.h; sourceTree = "<group>"; };
+		4A942FC226C75E8400DE6DAE /* HZZoneKefuSendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneKefuSendView.m; sourceTree = "<group>"; };
+		4A942FC526C761FE00DE6DAE /* HZZoneHotRemenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHotRemenViewController.h; sourceTree = "<group>"; };
+		4A942FC626C761FE00DE6DAE /* HZZoneHotRemenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHotRemenViewController.m; sourceTree = "<group>"; };
+		4A942FC826C7652B00DE6DAE /* HZZoneHotRemenHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHotRemenHeaderView.h; sourceTree = "<group>"; };
+		4A942FC926C7652B00DE6DAE /* HZZoneHotRemenHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHotRemenHeaderView.m; sourceTree = "<group>"; };
+		4A942FCB26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHotRemenCollectionViewCell.h; sourceTree = "<group>"; };
+		4A942FCC26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHotRemenCollectionViewCell.m; sourceTree = "<group>"; };
+		4A942FCE26C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneHotRemenFirstTableViewCell.h; sourceTree = "<group>"; };
+		4A942FCF26C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneHotRemenFirstTableViewCell.m; sourceTree = "<group>"; };
+		4A942FD126C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneRemenSecondTableViewCell.h; sourceTree = "<group>"; };
+		4A942FD226C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneRemenSecondTableViewCell.m; sourceTree = "<group>"; };
+		4A942FD426C7A24D00DE6DAE /* HZZoneSecondSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondSubViewController.h; sourceTree = "<group>"; };
+		4A942FD526C7A24D00DE6DAE /* HZZoneSecondSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondSubViewController.m; sourceTree = "<group>"; };
+		4A942FD726C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondSubTableViewCell.h; sourceTree = "<group>"; };
+		4A942FD826C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondSubTableViewCell.m; sourceTree = "<group>"; };
+		4A942FDA26C7A83F00DE6DAE /* HZZoneSecondHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondHeaderView.h; sourceTree = "<group>"; };
+		4A942FDB26C7A83F00DE6DAE /* HZZoneSecondHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondHeaderView.m; sourceTree = "<group>"; };
+		4A942FDD26C7B39300DE6DAE /* HZZoneSecondBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondBtn.h; sourceTree = "<group>"; };
+		4A942FDE26C7B39300DE6DAE /* HZZoneSecondBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondBtn.m; sourceTree = "<group>"; };
+		4A942FE026C7B86200DE6DAE /* HZZoneSecondPersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondPersonViewController.h; sourceTree = "<group>"; };
+		4A942FE126C7B86200DE6DAE /* HZZoneSecondPersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondPersonViewController.m; sourceTree = "<group>"; };
+		4A942FE326C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZonePersonalTableViewCell.h; sourceTree = "<group>"; };
+		4A942FE426C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZonePersonalTableViewCell.m; sourceTree = "<group>"; };
+		4A942FE726C7C8DC00DE6DAE /* HZZoneSecondSenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneSecondSenViewController.h; sourceTree = "<group>"; };
+		4A942FE826C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneSecondSenViewController.m; sourceTree = "<group>"; };
+		4A942FEA26C7CCB800DE6DAE /* UIViewController+IOS13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS13.m"; sourceTree = "<group>"; };
+		4A942FEB26C7CCB800DE6DAE /* UIViewController+IOS13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS13.h"; sourceTree = "<group>"; };
+		4A942FED26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zone_bookAddPhotColltecCell.h; sourceTree = "<group>"; };
+		4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zone_bookAddPhotColltecCell.m; sourceTree = "<group>"; };
+		4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeTableViewCell.h; sourceTree = "<group>"; };
+		4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeTableViewCell.m; sourceTree = "<group>"; };
 		6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZZone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2745C2D3B382FC1C50BE27 /* Pods-HZZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZZone.release.xcconfig"; path = "Target Support Files/Pods-HZZone/Pods-HZZone.release.xcconfig"; sourceTree = "<group>"; };
 		ED24DD08C64D6F1A59042DAB /* Pods-HZZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZZone.debug.xcconfig"; path = "Target Support Files/Pods-HZZone/Pods-HZZone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,6 +272,12 @@
 				4A674E3526B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m */,
 				4A674E3126B19BD00095B691 /* HZZoneHomeKefuHeaderView.h */,
 				4A674E3226B19BD00095B691 /* HZZoneHomeKefuHeaderView.m */,
+				4A942FB826C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.h */,
+				4A942FB926C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.m */,
+				4A942FBB26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.h */,
+				4A942FBC26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m */,
+				4A942FC126C75E8400DE6DAE /* HZZoneKefuSendView.h */,
+				4A942FC226C75E8400DE6DAE /* HZZoneKefuSendView.m */,
 			);
 			path = HZZoneHomekefu;
 			sourceTree = "<group>";
@@ -287,6 +347,8 @@
 		4A8699DB26AE799F001DAF55 /* HZZoneTools */ = {
 			isa = PBXGroup;
 			children = (
+				4A942FEB26C7CCB800DE6DAE /* UIViewController+IOS13.h */,
+				4A942FEA26C7CCB800DE6DAE /* UIViewController+IOS13.m */,
 				4A869A2E26AE85C6001DAF55 /* SGAdvertScrollView.h */,
 				4A869A2D26AE85C6001DAF55 /* SGAdvertScrollView.m */,
 				4A8699F126AE79AC001DAF55 /* CHTabBar.h */,
@@ -350,6 +412,7 @@
 		4A869A1226AE7D05001DAF55 /* HZZoneHome */ = {
 			isa = PBXGroup;
 			children = (
+				4A942FC426C761DB00DE6DAE /* HZZoneHotRemen */,
 				4A674E2D26B19B1F0095B691 /* HZZoneHomekefu */,
 				4A4D4D6826B04E4A00BE4EEF /* HZZoneHomeGood */,
 				4A869A1726AE7D2F001DAF55 /* HZZoneHomeViewController.h */,
@@ -371,8 +434,21 @@
 		4A869A1326AE7D0B001DAF55 /* HZZoneSecond */ = {
 			isa = PBXGroup;
 			children = (
+				4A942FE626C7C8C400DE6DAE /* HZZoneFabu */,
 				4A869A1A26AE7D39001DAF55 /* HZZoneSecondViewController.h */,
 				4A869A1B26AE7D39001DAF55 /* HZZoneSecondViewController.m */,
+				4A942FD426C7A24D00DE6DAE /* HZZoneSecondSubViewController.h */,
+				4A942FD526C7A24D00DE6DAE /* HZZoneSecondSubViewController.m */,
+				4A942FE026C7B86200DE6DAE /* HZZoneSecondPersonViewController.h */,
+				4A942FE126C7B86200DE6DAE /* HZZoneSecondPersonViewController.m */,
+				4A942FD726C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.h */,
+				4A942FD826C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.m */,
+				4A942FE326C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.h */,
+				4A942FE426C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m */,
+				4A942FDA26C7A83F00DE6DAE /* HZZoneSecondHeaderView.h */,
+				4A942FDB26C7A83F00DE6DAE /* HZZoneSecondHeaderView.m */,
+				4A942FDD26C7B39300DE6DAE /* HZZoneSecondBtn.h */,
+				4A942FDE26C7B39300DE6DAE /* HZZoneSecondBtn.m */,
 			);
 			path = HZZoneSecond;
 			sourceTree = "<group>";
@@ -382,6 +458,8 @@
 			children = (
 				4A869A1D26AE7D41001DAF55 /* HZZoneThreeViewController.h */,
 				4A869A1E26AE7D41001DAF55 /* HZZoneThreeViewController.m */,
+				4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */,
+				4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */,
 			);
 			path = HZZoneThree;
 			sourceTree = "<group>";
@@ -411,6 +489,34 @@
 				4A869A2826AE7DCF001DAF55 /* HZZoneLoginViewController.m */,
 			);
 			path = HZZoneLogin;
+			sourceTree = "<group>";
+		};
+		4A942FC426C761DB00DE6DAE /* HZZoneHotRemen */ = {
+			isa = PBXGroup;
+			children = (
+				4A942FC526C761FE00DE6DAE /* HZZoneHotRemenViewController.h */,
+				4A942FC626C761FE00DE6DAE /* HZZoneHotRemenViewController.m */,
+				4A942FC826C7652B00DE6DAE /* HZZoneHotRemenHeaderView.h */,
+				4A942FC926C7652B00DE6DAE /* HZZoneHotRemenHeaderView.m */,
+				4A942FCB26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.h */,
+				4A942FCC26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m */,
+				4A942FCE26C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.h */,
+				4A942FCF26C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m */,
+				4A942FD126C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.h */,
+				4A942FD226C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m */,
+			);
+			path = HZZoneHotRemen;
+			sourceTree = "<group>";
+		};
+		4A942FE626C7C8C400DE6DAE /* HZZoneFabu */ = {
+			isa = PBXGroup;
+			children = (
+				4A942FE726C7C8DC00DE6DAE /* HZZoneSecondSenViewController.h */,
+				4A942FE826C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m */,
+				4A942FED26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.h */,
+				4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */,
+			);
+			path = HZZoneFabu;
 			sourceTree = "<group>";
 		};
 		7262AD791F408EE711CA8C3E /* Frameworks */ = {
@@ -614,40 +720,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8699AC26AE7675001DAF55 /* ViewController.m in Sources */,
+				4A942FDC26C7A83F00DE6DAE /* HZZoneSecondHeaderView.m in Sources */,
 				4A869A2F26AE85C6001DAF55 /* SGAdvertScrollView.m in Sources */,
 				4A8699A626AE7675001DAF55 /* AppDelegate.m in Sources */,
 				4A869A2926AE7DCF001DAF55 /* HZZoneLoginViewController.m in Sources */,
 				4A8699F526AE79AC001DAF55 /* UITextField+AddPlaceholder.m in Sources */,
 				4A869A3526AE9044001DAF55 /* HZZoneHomeCollectionViewCell.m in Sources */,
 				4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */,
+				4A942FD326C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m in Sources */,
 				4A869A0926AE7A16001DAF55 /* HZZoneTableViewController.m in Sources */,
+				4A942FBD26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m in Sources */,
 				4A674E3026B19B460095B691 /* HZZoneHomeKefuViewController.m in Sources */,
 				4A869A1C26AE7D39001DAF55 /* HZZoneSecondViewController.m in Sources */,
 				4A869A0026AE79C6001DAF55 /* HZZoneBaseModel.m in Sources */,
 				4A869A0F26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.m in Sources */,
 				4A869A3826AE9896001DAF55 /* HZZoneHomeTableViewCell.m in Sources */,
 				4A869A1F26AE7D41001DAF55 /* HZZoneThreeViewController.m in Sources */,
+				4A942FC726C761FE00DE6DAE /* HZZoneHotRemenViewController.m in Sources */,
 				4A8699F326AE79AC001DAF55 /* UIView+HZXFrame.m in Sources */,
+				4A942FCD26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m in Sources */,
 				4A4D4D6B26B04E6B00BE4EEF /* HZZoneGoodListViewController.m in Sources */,
 				4A8699F726AE79AC001DAF55 /* CHTabBar.m in Sources */,
+				4A942FDF26C7B39300DE6DAE /* HZZoneSecondBtn.m in Sources */,
 				4A869A0C26AE7AB6001DAF55 /* HZZoneBaseTableViewCell.m in Sources */,
+				4A942FEF26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m in Sources */,
+				4A942FBA26C7505A00DE6DAE /* HZZoneHeaderFirstTableViewCell.m in Sources */,
 				4A8699FB26AE79AC001DAF55 /* UIColor+CHRegex.m in Sources */,
+				4A942FC326C75E8400DE6DAE /* HZZoneKefuSendView.m in Sources */,
 				4A8699F226AE79AC001DAF55 /* JRWaterFallLayout.m in Sources */,
 				4A869A1926AE7D2F001DAF55 /* HZZoneHomeViewController.m in Sources */,
 				4A8699F926AE79AC001DAF55 /* CoreAnimationEffect.m in Sources */,
 				4A869A3B26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m in Sources */,
 				4A869A2526AE7D50001DAF55 /* HZZoneFiveViewController.m in Sources */,
 				4A8699F626AE79AC001DAF55 /* UIView+shadowPath.m in Sources */,
+				4A942FF226C7D09000DE6DAE /* HZZoneThreeTableViewCell.m in Sources */,
 				4A8699FA26AE79AC001DAF55 /* UIView+ACSLayer.m in Sources */,
 				4A674E3626B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m in Sources */,
+				4A942FD026C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m in Sources */,
 				4A8699F426AE79AC001DAF55 /* NSString+CHRegex.m in Sources */,
 				4A8699B726AE7678001DAF55 /* main.m in Sources */,
 				4A869A3226AE8C12001DAF55 /* HZZoneHomeBtn.m in Sources */,
 				4A869A0626AE79FD001DAF55 /* HZZoneBaseViewController.m in Sources */,
+				4A942FCA26C7652B00DE6DAE /* HZZoneHotRemenHeaderView.m in Sources */,
+				4A942FE226C7B86200DE6DAE /* HZZoneSecondPersonViewController.m in Sources */,
+				4A942FE526C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m in Sources */,
+				4A942FEC26C7CCB800DE6DAE /* UIViewController+IOS13.m in Sources */,
+				4A942FD626C7A24D00DE6DAE /* HZZoneSecondSubViewController.m in Sources */,
 				4A869A2226AE7D4A001DAF55 /* HZZoneFoureViewController.m in Sources */,
+				4A942FE926C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m in Sources */,
 				4A8699F826AE79AC001DAF55 /* UILabel+CDGPSpaceLb.m in Sources */,
 				4A869A0326AE79F0001DAF55 /* HZZoneBaseTabbarViewController.m in Sources */,
 				4A869A2C26AE80C4001DAF55 /* HZZoneHomeHeaderView.m in Sources */,
+				4A942FD926C7A77B00DE6DAE /* HZZoneSecondSubTableViewCell.m in Sources */,
 				4A8699FC26AE79AC001DAF55 /* LMJHorizontalScrollText.m in Sources */,
 				4A674E3326B19BD00095B691 /* HZZoneHomeKefuHeaderView.m in Sources */,
 			);
