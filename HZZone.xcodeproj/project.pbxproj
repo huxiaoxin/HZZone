@@ -68,6 +68,7 @@
 		4A942FEC26C7CCB800DE6DAE /* UIViewController+IOS13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEA26C7CCB800DE6DAE /* UIViewController+IOS13.m */; };
 		4A942FEF26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */; };
 		4A942FF226C7D09000DE6DAE /* HZZoneThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */; };
+		4AAD39F726CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */; };
 		623C8CDDAEBC7373D92E76A6 /* Pods_HZZone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */; };
 /* End PBXBuildFile section */
 
@@ -212,6 +213,8 @@
 		4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zone_bookAddPhotColltecCell.m; sourceTree = "<group>"; };
 		4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeTableViewCell.h; sourceTree = "<group>"; };
 		4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeTableViewCell.m; sourceTree = "<group>"; };
+		4AAD39F526CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeCollectionViewCell.m; sourceTree = "<group>"; };
 		6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZZone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2745C2D3B382FC1C50BE27 /* Pods-HZZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZZone.release.xcconfig"; path = "Target Support Files/Pods-HZZone/Pods-HZZone.release.xcconfig"; sourceTree = "<group>"; };
 		ED24DD08C64D6F1A59042DAB /* Pods-HZZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZZone.debug.xcconfig"; path = "Target Support Files/Pods-HZZone/Pods-HZZone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -460,6 +463,8 @@
 				4A869A1E26AE7D41001DAF55 /* HZZoneThreeViewController.m */,
 				4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */,
 				4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */,
+				4AAD39F526CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.h */,
+				4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */,
 			);
 			path = HZZoneThree;
 			sourceTree = "<group>";
@@ -750,6 +755,7 @@
 				4A8699F226AE79AC001DAF55 /* JRWaterFallLayout.m in Sources */,
 				4A869A1926AE7D2F001DAF55 /* HZZoneHomeViewController.m in Sources */,
 				4A8699F926AE79AC001DAF55 /* CoreAnimationEffect.m in Sources */,
+				4AAD39F726CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m in Sources */,
 				4A869A3B26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m in Sources */,
 				4A869A2526AE7D50001DAF55 /* HZZoneFiveViewController.m in Sources */,
 				4A8699F626AE79AC001DAF55 /* UIView+shadowPath.m in Sources */,

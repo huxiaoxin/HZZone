@@ -16,6 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.gk_navTitle = @"活动";
+    self.HZZoneBaseTableView.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     UIView * HZZoneSendingView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
     UIButton * HZZoneSendBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -30,9 +31,12 @@
     return 10;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    HZZoneThreeTableViewCell *HzzoneCell = [HZZoneThreeTableViewCell HZZoneCreateCellWithTheTableView:tableView WithTheIndexPath:indexPath];
+    return HzzoneCell;
 }
-
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 260;
+}
 -(void)HZZoneSendBtnClick{
     
 }
