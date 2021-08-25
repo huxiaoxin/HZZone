@@ -6,13 +6,19 @@
 //
 
 #import "HZZoneBaseViewController.h"
-
+#import "HZZoneLoginViewController.h"
 @interface HZZoneBaseViewController ()
 
 @end
 
 @implementation HZZoneBaseViewController
-
+-(void)HZZoneShowLoginVc{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        HZZoneLoginViewController * hzzoneLoginVc = [[HZZoneLoginViewController alloc]init];
+        UINavigationController * hzzoneNav = [[UINavigationController alloc]initWithRootViewController:hzzoneLoginVc];
+        [self presentViewController:hzzoneNav animated:YES completion:nil];
+    });
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];

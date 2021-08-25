@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HZZoneBaseViewController : GKNavigationBarViewController
-
+-(void)HZZoneShowLoginVc;
 @end
 
 NS_ASSUME_NONNULL_END

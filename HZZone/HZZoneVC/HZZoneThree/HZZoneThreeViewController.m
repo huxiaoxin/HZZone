@@ -7,6 +7,7 @@
 
 #import "HZZoneThreeViewController.h"
 #import "HZZoneThreeTableViewCell.h"
+#import "HZZoneThreeDetailViewController.h"
 @interface HZZoneThreeViewController ()
 
 @end
@@ -17,14 +18,6 @@
     [super viewDidLoad];
     self.gk_navTitle = @"活动";
     self.HZZoneBaseTableView.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
-    UIView * HZZoneSendingView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
-    UIButton * HZZoneSendBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [HZZoneSendBtn setImage:[UIImage imageNamed:@"xie"] forState:UIControlStateNormal];
-    [HZZoneSendBtn setFrame:CGRectMake(0, 15, 20, 20)];
-    [HZZoneSendBtn addTarget:self action:@selector(HZZoneSendBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [HZZoneSendingView addSubview:HZZoneSendBtn];
-    self.gk_navRightBarButtonItem =[[UIBarButtonItem alloc]initWithCustomView:HZZoneSendingView];
     self.view.backgroundColor =  LGDLightGaryColor;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -37,8 +30,10 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 260;
 }
--(void)HZZoneSendBtnClick{
-    
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    HZZoneThreeDetailViewController *threeDetailVc = [[HZZoneThreeDetailViewController alloc]init];
+    threeDetailVc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:threeDetailVc animated:YES];
 }
 /*
 #pragma mark - Navigation

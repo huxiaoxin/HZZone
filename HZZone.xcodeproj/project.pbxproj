@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A096A3A26D5FC9900FA1E3C /* HZZonePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A096A3926D5FC9900FA1E3C /* HZZonePasswordViewController.m */; };
 		4A4D4D6726B0480C00BE4EEF /* FZPWJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6626B0480C00BE4EEF /* FZPWJW.TTF */; };
 		4A4D4D6B26B04E6B00BE4EEF /* HZZoneGoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */; };
 		4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6D26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m */; };
@@ -68,6 +69,11 @@
 		4A942FEC26C7CCB800DE6DAE /* UIViewController+IOS13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEA26C7CCB800DE6DAE /* UIViewController+IOS13.m */; };
 		4A942FEF26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */; };
 		4A942FF226C7D09000DE6DAE /* HZZoneThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */; };
+		4A99FED626D4AC4D006980BA /* HZZoneThreeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FED526D4AC4D006980BA /* HZZoneThreeDetailViewController.m */; };
+		4A99FED926D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FED826D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m */; };
+		4A99FEDC26D4B266006980BA /* HZZoneItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FEDB26D4B266006980BA /* HZZoneItemView.m */; };
+		4A99FEDF26D4B2B8006980BA /* HZZoneVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FEDE26D4B2B8006980BA /* HZZoneVerticalView.m */; };
+		4A99FEE226D4BA8F006980BA /* HZZoneVerticalOldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99FEE126D4BA8F006980BA /* HZZoneVerticalOldView.m */; };
 		4AAD39F726CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */; };
 		623C8CDDAEBC7373D92E76A6 /* Pods_HZZone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */; };
 /* End PBXBuildFile section */
@@ -90,6 +96,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A096A3826D5FC9900FA1E3C /* HZZonePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZonePasswordViewController.h; sourceTree = "<group>"; };
+		4A096A3926D5FC9900FA1E3C /* HZZonePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZonePasswordViewController.m; sourceTree = "<group>"; };
 		4A4D4D6626B0480C00BE4EEF /* FZPWJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZPWJW.TTF; sourceTree = "<group>"; };
 		4A4D4D6926B04E6B00BE4EEF /* HZZoneGoodListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneGoodListViewController.h; sourceTree = "<group>"; };
 		4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneGoodListViewController.m; sourceTree = "<group>"; };
@@ -213,6 +221,16 @@
 		4A942FEE26C7CDAC00DE6DAE /* Zone_bookAddPhotColltecCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zone_bookAddPhotColltecCell.m; sourceTree = "<group>"; };
 		4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeTableViewCell.h; sourceTree = "<group>"; };
 		4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeTableViewCell.m; sourceTree = "<group>"; };
+		4A99FED426D4AC4D006980BA /* HZZoneThreeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeDetailViewController.h; sourceTree = "<group>"; };
+		4A99FED526D4AC4D006980BA /* HZZoneThreeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeDetailViewController.m; sourceTree = "<group>"; };
+		4A99FED726D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneTreeDetailTableViewCell.h; sourceTree = "<group>"; };
+		4A99FED826D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneTreeDetailTableViewCell.m; sourceTree = "<group>"; };
+		4A99FEDA26D4B266006980BA /* HZZoneItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneItemView.h; sourceTree = "<group>"; };
+		4A99FEDB26D4B266006980BA /* HZZoneItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneItemView.m; sourceTree = "<group>"; };
+		4A99FEDD26D4B2B8006980BA /* HZZoneVerticalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneVerticalView.h; sourceTree = "<group>"; };
+		4A99FEDE26D4B2B8006980BA /* HZZoneVerticalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneVerticalView.m; sourceTree = "<group>"; };
+		4A99FEE026D4BA8F006980BA /* HZZoneVerticalOldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneVerticalOldView.h; sourceTree = "<group>"; };
+		4A99FEE126D4BA8F006980BA /* HZZoneVerticalOldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneVerticalOldView.m; sourceTree = "<group>"; };
 		4AAD39F526CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneThreeCollectionViewCell.h; sourceTree = "<group>"; };
 		4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneThreeCollectionViewCell.m; sourceTree = "<group>"; };
 		6CA5EA6368DC32012B593A80 /* Pods_HZZone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZZone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -465,6 +483,8 @@
 				4A942FF126C7D09000DE6DAE /* HZZoneThreeTableViewCell.m */,
 				4AAD39F526CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.h */,
 				4AAD39F626CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m */,
+				4A99FED426D4AC4D006980BA /* HZZoneThreeDetailViewController.h */,
+				4A99FED526D4AC4D006980BA /* HZZoneThreeDetailViewController.m */,
 			);
 			path = HZZoneThree;
 			sourceTree = "<group>";
@@ -474,6 +494,8 @@
 			children = (
 				4A869A2026AE7D4A001DAF55 /* HZZoneFoureViewController.h */,
 				4A869A2126AE7D4A001DAF55 /* HZZoneFoureViewController.m */,
+				4A99FED726D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.h */,
+				4A99FED826D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m */,
 			);
 			path = HZZoneFoure;
 			sourceTree = "<group>";
@@ -483,6 +505,12 @@
 			children = (
 				4A869A2326AE7D50001DAF55 /* HZZoneFiveViewController.h */,
 				4A869A2426AE7D50001DAF55 /* HZZoneFiveViewController.m */,
+				4A99FEDA26D4B266006980BA /* HZZoneItemView.h */,
+				4A99FEDB26D4B266006980BA /* HZZoneItemView.m */,
+				4A99FEDD26D4B2B8006980BA /* HZZoneVerticalView.h */,
+				4A99FEDE26D4B2B8006980BA /* HZZoneVerticalView.m */,
+				4A99FEE026D4BA8F006980BA /* HZZoneVerticalOldView.h */,
+				4A99FEE126D4BA8F006980BA /* HZZoneVerticalOldView.m */,
 			);
 			path = HZZoneFive;
 			sourceTree = "<group>";
@@ -492,6 +520,8 @@
 			children = (
 				4A869A2726AE7DCF001DAF55 /* HZZoneLoginViewController.h */,
 				4A869A2826AE7DCF001DAF55 /* HZZoneLoginViewController.m */,
+				4A096A3826D5FC9900FA1E3C /* HZZonePasswordViewController.h */,
+				4A096A3926D5FC9900FA1E3C /* HZZonePasswordViewController.m */,
 			);
 			path = HZZoneLogin;
 			sourceTree = "<group>";
@@ -734,13 +764,16 @@
 				4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */,
 				4A942FD326C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m in Sources */,
 				4A869A0926AE7A16001DAF55 /* HZZoneTableViewController.m in Sources */,
+				4A99FED626D4AC4D006980BA /* HZZoneThreeDetailViewController.m in Sources */,
 				4A942FBD26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m in Sources */,
 				4A674E3026B19B460095B691 /* HZZoneHomeKefuViewController.m in Sources */,
 				4A869A1C26AE7D39001DAF55 /* HZZoneSecondViewController.m in Sources */,
+				4A99FEE226D4BA8F006980BA /* HZZoneVerticalOldView.m in Sources */,
 				4A869A0026AE79C6001DAF55 /* HZZoneBaseModel.m in Sources */,
 				4A869A0F26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.m in Sources */,
 				4A869A3826AE9896001DAF55 /* HZZoneHomeTableViewCell.m in Sources */,
 				4A869A1F26AE7D41001DAF55 /* HZZoneThreeViewController.m in Sources */,
+				4A99FEDF26D4B2B8006980BA /* HZZoneVerticalView.m in Sources */,
 				4A942FC726C761FE00DE6DAE /* HZZoneHotRemenViewController.m in Sources */,
 				4A8699F326AE79AC001DAF55 /* UIView+HZXFrame.m in Sources */,
 				4A942FCD26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m in Sources */,
@@ -763,7 +796,9 @@
 				4A8699FA26AE79AC001DAF55 /* UIView+ACSLayer.m in Sources */,
 				4A674E3626B19CED0095B691 /* HZZoneKefuTypeFirstTableViewCell.m in Sources */,
 				4A942FD026C77C4900DE6DAE /* HZZoneHotRemenFirstTableViewCell.m in Sources */,
+				4A99FED926D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m in Sources */,
 				4A8699F426AE79AC001DAF55 /* NSString+CHRegex.m in Sources */,
+				4A99FEDC26D4B266006980BA /* HZZoneItemView.m in Sources */,
 				4A8699B726AE7678001DAF55 /* main.m in Sources */,
 				4A869A3226AE8C12001DAF55 /* HZZoneHomeBtn.m in Sources */,
 				4A869A0626AE79FD001DAF55 /* HZZoneBaseViewController.m in Sources */,
@@ -774,6 +809,7 @@
 				4A942FD626C7A24D00DE6DAE /* HZZoneSecondSubViewController.m in Sources */,
 				4A869A2226AE7D4A001DAF55 /* HZZoneFoureViewController.m in Sources */,
 				4A942FE926C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m in Sources */,
+				4A096A3A26D5FC9900FA1E3C /* HZZonePasswordViewController.m in Sources */,
 				4A8699F826AE79AC001DAF55 /* UILabel+CDGPSpaceLb.m in Sources */,
 				4A869A0326AE79F0001DAF55 /* HZZoneBaseTabbarViewController.m in Sources */,
 				4A869A2C26AE80C4001DAF55 /* HZZoneHomeHeaderView.m in Sources */,
