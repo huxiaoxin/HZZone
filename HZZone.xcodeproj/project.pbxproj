@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4A096A3A26D5FC9900FA1E3C /* HZZonePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A096A3926D5FC9900FA1E3C /* HZZonePasswordViewController.m */; };
+		4A490A5B26D7516100E3FBC2 /* HZZoneVideoActityDetailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5026D7515F00E3FBC2 /* HZZoneVideoActityDetailHeader.m */; };
+		4A490A5C26D7516100E3FBC2 /* HZZoneBaomingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5326D7516000E3FBC2 /* HZZoneBaomingDetailViewController.m */; };
+		4A490A5D26D7516100E3FBC2 /* HZZoneVideoAcityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5426D7516000E3FBC2 /* HZZoneVideoAcityTableViewCell.m */; };
+		4A490A5E26D7516100E3FBC2 /* carpVideoAcitytyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5526D7516000E3FBC2 /* carpVideoAcitytyModel.m */; };
+		4A490A5F26D7516100E3FBC2 /* HZZoneActityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5826D7516000E3FBC2 /* HZZoneActityDetailViewController.m */; };
+		4A490A6026D7516100E3FBC2 /* HZZoneAcittyDetailFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A5926D7516000E3FBC2 /* HZZoneAcittyDetailFooter.m */; };
+		4A490A6326D7559000E3FBC2 /* CarpVideoLoginVideModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A6226D7559000E3FBC2 /* CarpVideoLoginVideModelTool.m */; };
+		4A490A6926D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A490A6826D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.m */; };
 		4A4D4D6726B0480C00BE4EEF /* FZPWJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6626B0480C00BE4EEF /* FZPWJW.TTF */; };
 		4A4D4D6B26B04E6B00BE4EEF /* HZZoneGoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */; };
 		4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D4D6D26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m */; };
@@ -98,6 +106,22 @@
 /* Begin PBXFileReference section */
 		4A096A3826D5FC9900FA1E3C /* HZZonePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZonePasswordViewController.h; sourceTree = "<group>"; };
 		4A096A3926D5FC9900FA1E3C /* HZZonePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZonePasswordViewController.m; sourceTree = "<group>"; };
+		4A490A4F26D7515F00E3FBC2 /* HZZoneAcittyDetailFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZoneAcittyDetailFooter.h; sourceTree = "<group>"; };
+		4A490A5026D7515F00E3FBC2 /* HZZoneVideoActityDetailHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZoneVideoActityDetailHeader.m; sourceTree = "<group>"; };
+		4A490A5126D7515F00E3FBC2 /* HZZoneBaomingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZoneBaomingDetailViewController.h; sourceTree = "<group>"; };
+		4A490A5226D7515F00E3FBC2 /* HZZoneVideoAcityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZoneVideoAcityTableViewCell.h; sourceTree = "<group>"; };
+		4A490A5326D7516000E3FBC2 /* HZZoneBaomingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZoneBaomingDetailViewController.m; sourceTree = "<group>"; };
+		4A490A5426D7516000E3FBC2 /* HZZoneVideoAcityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZoneVideoAcityTableViewCell.m; sourceTree = "<group>"; };
+		4A490A5526D7516000E3FBC2 /* carpVideoAcitytyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carpVideoAcitytyModel.m; sourceTree = "<group>"; };
+		4A490A5626D7516000E3FBC2 /* carpVideoAcitytyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carpVideoAcitytyModel.h; sourceTree = "<group>"; };
+		4A490A5726D7516000E3FBC2 /* HZZoneActityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZoneActityDetailViewController.h; sourceTree = "<group>"; };
+		4A490A5826D7516000E3FBC2 /* HZZoneActityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZoneActityDetailViewController.m; sourceTree = "<group>"; };
+		4A490A5926D7516000E3FBC2 /* HZZoneAcittyDetailFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZoneAcittyDetailFooter.m; sourceTree = "<group>"; };
+		4A490A5A26D7516100E3FBC2 /* HZZoneVideoActityDetailHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZoneVideoActityDetailHeader.h; sourceTree = "<group>"; };
+		4A490A6126D7559000E3FBC2 /* CarpVideoLoginVideModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpVideoLoginVideModelTool.h; sourceTree = "<group>"; };
+		4A490A6226D7559000E3FBC2 /* CarpVideoLoginVideModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpVideoLoginVideModelTool.m; sourceTree = "<group>"; };
+		4A490A6726D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+HZZoneSafe.h"; sourceTree = "<group>"; };
+		4A490A6826D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+HZZoneSafe.m"; sourceTree = "<group>"; };
 		4A4D4D6626B0480C00BE4EEF /* FZPWJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZPWJW.TTF; sourceTree = "<group>"; };
 		4A4D4D6926B04E6B00BE4EEF /* HZZoneGoodListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZZoneGoodListViewController.h; sourceTree = "<group>"; };
 		4A4D4D6A26B04E6B00BE4EEF /* HZZoneGoodListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZoneGoodListViewController.m; sourceTree = "<group>"; };
@@ -273,6 +297,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4A490A4E26D7514400E3FBC2 /* HZZoneThreeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4A490A4F26D7515F00E3FBC2 /* HZZoneAcittyDetailFooter.h */,
+				4A490A5926D7516000E3FBC2 /* HZZoneAcittyDetailFooter.m */,
+				4A490A5226D7515F00E3FBC2 /* HZZoneVideoAcityTableViewCell.h */,
+				4A490A5426D7516000E3FBC2 /* HZZoneVideoAcityTableViewCell.m */,
+				4A490A5626D7516000E3FBC2 /* carpVideoAcitytyModel.h */,
+				4A490A5526D7516000E3FBC2 /* carpVideoAcitytyModel.m */,
+				4A490A5A26D7516100E3FBC2 /* HZZoneVideoActityDetailHeader.h */,
+				4A490A5026D7515F00E3FBC2 /* HZZoneVideoActityDetailHeader.m */,
+				4A490A5726D7516000E3FBC2 /* HZZoneActityDetailViewController.h */,
+				4A490A5826D7516000E3FBC2 /* HZZoneActityDetailViewController.m */,
+				4A490A5126D7515F00E3FBC2 /* HZZoneBaomingDetailViewController.h */,
+				4A490A5326D7516000E3FBC2 /* HZZoneBaomingDetailViewController.m */,
+			);
+			path = HZZoneThreeDetail;
+			sourceTree = "<group>";
+		};
 		4A4D4D6826B04E4A00BE4EEF /* HZZoneHomeGood */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +376,8 @@
 				4A8699DB26AE799F001DAF55 /* HZZoneTools */,
 				4A8699A426AE7675001DAF55 /* AppDelegate.h */,
 				4A8699A526AE7675001DAF55 /* AppDelegate.m */,
+				4A490A6726D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.h */,
+				4A490A6826D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.m */,
 				4A8699AA26AE7675001DAF55 /* ViewController.h */,
 				4A8699AB26AE7675001DAF55 /* ViewController.m */,
 				4A8699AD26AE7675001DAF55 /* Main.storyboard */,
@@ -413,6 +458,8 @@
 				4A869A0B26AE7AB6001DAF55 /* HZZoneBaseTableViewCell.m */,
 				4A869A0D26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.h */,
 				4A869A0E26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.m */,
+				4A490A6126D7559000E3FBC2 /* CarpVideoLoginVideModelTool.h */,
+				4A490A6226D7559000E3FBC2 /* CarpVideoLoginVideModelTool.m */,
 			);
 			path = HZZoneBase;
 			sourceTree = "<group>";
@@ -477,6 +524,7 @@
 		4A869A1426AE7D13001DAF55 /* HZZoneThree */ = {
 			isa = PBXGroup;
 			children = (
+				4A490A4E26D7514400E3FBC2 /* HZZoneThreeDetail */,
 				4A869A1D26AE7D41001DAF55 /* HZZoneThreeViewController.h */,
 				4A869A1E26AE7D41001DAF55 /* HZZoneThreeViewController.m */,
 				4A942FF026C7D09000DE6DAE /* HZZoneThreeTableViewCell.h */,
@@ -764,19 +812,24 @@
 				4A4D4D6E26B04F4800BE4EEF /* HZZoneGoodListTableViewCell.m in Sources */,
 				4A942FD326C77C7500DE6DAE /* HZZoneRemenSecondTableViewCell.m in Sources */,
 				4A869A0926AE7A16001DAF55 /* HZZoneTableViewController.m in Sources */,
+				4A490A6326D7559000E3FBC2 /* CarpVideoLoginVideModelTool.m in Sources */,
 				4A99FED626D4AC4D006980BA /* HZZoneThreeDetailViewController.m in Sources */,
 				4A942FBD26C7506500DE6DAE /* HZZoneHeaderSecondTableViewCell.m in Sources */,
 				4A674E3026B19B460095B691 /* HZZoneHomeKefuViewController.m in Sources */,
+				4A490A5C26D7516100E3FBC2 /* HZZoneBaomingDetailViewController.m in Sources */,
 				4A869A1C26AE7D39001DAF55 /* HZZoneSecondViewController.m in Sources */,
 				4A99FEE226D4BA8F006980BA /* HZZoneVerticalOldView.m in Sources */,
 				4A869A0026AE79C6001DAF55 /* HZZoneBaseModel.m in Sources */,
+				4A490A5E26D7516100E3FBC2 /* carpVideoAcitytyModel.m in Sources */,
 				4A869A0F26AE7B1A001DAF55 /* HZZoneBaseCollectionViewCell.m in Sources */,
 				4A869A3826AE9896001DAF55 /* HZZoneHomeTableViewCell.m in Sources */,
+				4A490A5F26D7516100E3FBC2 /* HZZoneActityDetailViewController.m in Sources */,
 				4A869A1F26AE7D41001DAF55 /* HZZoneThreeViewController.m in Sources */,
 				4A99FEDF26D4B2B8006980BA /* HZZoneVerticalView.m in Sources */,
 				4A942FC726C761FE00DE6DAE /* HZZoneHotRemenViewController.m in Sources */,
 				4A8699F326AE79AC001DAF55 /* UIView+HZXFrame.m in Sources */,
 				4A942FCD26C76D8A00DE6DAE /* HZZoneHotRemenCollectionViewCell.m in Sources */,
+				4A490A6926D759CC00E3FBC2 /* AppDelegate+HZZoneSafe.m in Sources */,
 				4A4D4D6B26B04E6B00BE4EEF /* HZZoneGoodListViewController.m in Sources */,
 				4A8699F726AE79AC001DAF55 /* CHTabBar.m in Sources */,
 				4A942FDF26C7B39300DE6DAE /* HZZoneSecondBtn.m in Sources */,
@@ -788,6 +841,7 @@
 				4A8699F226AE79AC001DAF55 /* JRWaterFallLayout.m in Sources */,
 				4A869A1926AE7D2F001DAF55 /* HZZoneHomeViewController.m in Sources */,
 				4A8699F926AE79AC001DAF55 /* CoreAnimationEffect.m in Sources */,
+				4A490A5B26D7516100E3FBC2 /* HZZoneVideoActityDetailHeader.m in Sources */,
 				4AAD39F726CB9A2400FA1203 /* HZZoneThreeCollectionViewCell.m in Sources */,
 				4A869A3B26AEB973001DAF55 /* HZZoneHomeBannerCollectionViewCell.m in Sources */,
 				4A869A2526AE7D50001DAF55 /* HZZoneFiveViewController.m in Sources */,
@@ -799,6 +853,7 @@
 				4A99FED926D4ACC7006980BA /* HZZoneTreeDetailTableViewCell.m in Sources */,
 				4A8699F426AE79AC001DAF55 /* NSString+CHRegex.m in Sources */,
 				4A99FEDC26D4B266006980BA /* HZZoneItemView.m in Sources */,
+				4A490A6026D7516100E3FBC2 /* HZZoneAcittyDetailFooter.m in Sources */,
 				4A8699B726AE7678001DAF55 /* main.m in Sources */,
 				4A869A3226AE8C12001DAF55 /* HZZoneHomeBtn.m in Sources */,
 				4A869A0626AE79FD001DAF55 /* HZZoneBaseViewController.m in Sources */,
@@ -807,6 +862,7 @@
 				4A942FE526C7B8CC00DE6DAE /* HZZonePersonalTableViewCell.m in Sources */,
 				4A942FEC26C7CCB800DE6DAE /* UIViewController+IOS13.m in Sources */,
 				4A942FD626C7A24D00DE6DAE /* HZZoneSecondSubViewController.m in Sources */,
+				4A490A5D26D7516100E3FBC2 /* HZZoneVideoAcityTableViewCell.m in Sources */,
 				4A869A2226AE7D4A001DAF55 /* HZZoneFoureViewController.m in Sources */,
 				4A942FE926C7C8DC00DE6DAE /* HZZoneSecondSenViewController.m in Sources */,
 				4A096A3A26D5FC9900FA1E3C /* HZZonePasswordViewController.m in Sources */,

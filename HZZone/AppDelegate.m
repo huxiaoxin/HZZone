@@ -43,6 +43,10 @@
     }
 
 }
++ (AppDelegate *)shareDelegate
+{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
 
 
 

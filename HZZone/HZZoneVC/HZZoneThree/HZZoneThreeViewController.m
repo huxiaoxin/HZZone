@@ -8,6 +8,7 @@
 #import "HZZoneThreeViewController.h"
 #import "HZZoneThreeTableViewCell.h"
 #import "HZZoneThreeDetailViewController.h"
+#import "HZZoneActityDetailViewController.h"
 @interface HZZoneThreeViewController ()
 
 @end
@@ -31,7 +32,7 @@
     return 260;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    HZZoneThreeDetailViewController *threeDetailVc = [[HZZoneThreeDetailViewController alloc]init];
+    HZZoneActityDetailViewController *threeDetailVc = [[HZZoneActityDetailViewController alloc]init];
     threeDetailVc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:threeDetailVc animated:YES];
 }
